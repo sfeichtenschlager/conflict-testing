@@ -1,13 +1,20 @@
 // Java implementation of QuickSort
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.io.*;
+import java.sql.SQLOutput;
 import java.util.*;
 
 class quicksort {
 
+
     //  Always pick first element as pivot
     //function for swap
+    //
+
     static void swap(int[] arr, int i, int j) {
+        System.out.print("JUlian yeah");
         //swap
         int temp = arr[i];
         arr[i] = arr[j];
